@@ -1,0 +1,29 @@
+﻿model,metric,value,n_test_tweets
+DistilBERT (fine-tuned),accuracy,0.7359,3805
+DistilBERT (fine-tuned),macro_precision,0.704,3805
+DistilBERT (fine-tuned),macro_recall,0.6756,3805
+DistilBERT (fine-tuned),macro_f1,0.687,3805
+DistilBERT (fine-tuned),weighted_precision,0.7303,3805
+DistilBERT (fine-tuned),weighted_recall,0.7359,3805
+DistilBERT (fine-tuned),weighted_f1,0.7311,3805
+Majority-class baseline,accuracy,0.5122,3805
+Majority-class baseline,macro_precision,0.1281,3805
+Majority-class baseline,macro_recall,0.25,3805
+Majority-class baseline,macro_f1,0.1694,3805
+Majority-class baseline,weighted_precision,0.2624,3805
+Majority-class baseline,weighted_recall,0.5122,3805
+Majority-class baseline,weighted_f1,0.347,3805
+VADER rule-based (mapped),accuracy,0.2873,3805
+VADER rule-based (mapped),macro_precision,0.2065,3805
+VADER rule-based (mapped),macro_recall,0.2786,3805
+VADER rule-based (mapped),macro_f1,0.2118,3805
+VADER rule-based (mapped),weighted_precision,0.3095,3805
+VADER rule-based (mapped),weighted_recall,0.2873,3805
+VADER rule-based (mapped),weighted_f1,0.2819,3805
+TF-IDF + Logistic Regression,accuracy,0.697,3805
+TF-IDF + Logistic Regression,macro_precision,0.666,3805
+TF-IDF + Logistic Regression,macro_recall,0.5984,3805
+TF-IDF + Logistic Regression,macro_f1,0.6231,3805
+TF-IDF + Logistic Regression,weighted_precision,0.6879,3805
+TF-IDF + Logistic Regression,weighted_recall,0.697,3805
+TF-IDF + Logistic Regression,weighted_f1,0.6856,3805
